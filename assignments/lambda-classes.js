@@ -1,11 +1,3 @@
-// CODE here for your Lambda Classes
-// We have a school to build here! This project will get you used to thinking about classes in JavaScript and building them from a brand new data set.
-// Lambda personnel can be broken down into three different types of people.
-// Instructors - extensions of Person
-// Students - extensions of Person
-// Project Managers - extensions of Instructors
-// IMPORTANT - You'll need to create 2 - 3 objects for each class and test them according to their unique Attributes. For example:
-
 // For anyone reading my comments, I now feel like I'm cooking with fire.
 // class constructors are fantastic.
 const WEB17modules = ['Responsive Design I','Responsive Design II','Preprocessing I','Preprocessing II','JavaScript I','JavaScript II','JavaScript III','JavaScript IV']
