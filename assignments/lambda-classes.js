@@ -86,6 +86,16 @@ const fred = new Instructor({
     specialty: 'Front-end',
     saying: `Don't forget the homies`
 });
+const willma = new Instructor({
+    name: 'Willma Flinstone',
+    location: 'Bedrock',
+    age: 26,
+    gender: 'female',
+    
+    favLanguage: 'Perl',
+    specialty: 'Back-end',
+    saying: `FRED!!!`
+});
 
 const janet = new Student({
     name: 'Janet Jackson',
@@ -100,6 +110,19 @@ const janet = new Student({
     favSubjects: ['CSS','HTML','Music'],
     grade: 60,
 });
+const michael = new Student({
+    name: 'Michael Jackson',
+    location: 'Neverland',
+    age: (18 / Math.random()),
+    gender: 'male',
+
+    previousBackground: 'singer/songwriter',
+    className: 'WEB17',
+    modules: WEB17modules,
+    progress: 4,
+    favSubjects: ['CSS','HTML','Music'],
+    grade: 55,
+});
 
 const bob = new ProjectManagers({
     name: 'Bob the Builder',
@@ -113,8 +136,21 @@ const bob = new ProjectManagers({
 
     gradClassName: 'CS01',
     favInstructor: 'Don Knuth',
-
 });
+const yoda = new ProjectManagers({
+    name: 'Yoda the Jedi',
+    location: 'In a Galaxy',
+    age: 211,
+    gender: 'unknown',
+
+    favLanguage: '01',
+    specialty: 'lowest-level',
+    saying: `Flow is the state you must become`,
+
+    gradClassName: 'Jedi101',
+    favInstructor: 'The Universe',
+});
+
 console.log(fred.gradeRandom(janet));
 
 console.log(janet.graduate(bob.gradeRandom(janet)))
